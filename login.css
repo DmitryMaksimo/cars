@@ -1,0 +1,59 @@
+body{
+    background: #630372;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+.photo{
+     background: url(abstract-seamless-colorful-backdrop-wallpaper-topdown-view-photo-realistic-with-texture_146482-8137.avif);
+     background-size: cover;
+     @media(max-width: 992px){
+        display: none;
+     }
+}
+.form{
+    padding: 30px;
+    background: whitesmoke;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    @media(max-width: 992px){
+        grid-template-columns: 100%;
+    }
+}
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+input{
+ margin-bottom: 15px ;
+ margin-bottom: 20px;
+ 
+}
+input[type="submit"]{
+    background-color: #0f173f;
+    color: wheat ;
+    width: 100%;
+    padding: 8px;
+     border: none;
+}
+.form h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.link{
+    text-align: center;
+}
+
+.btn:hover{
+    background: rgb(57, 0, 190) ;
+}

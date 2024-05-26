@@ -1,0 +1,380 @@
+body{
+    margin: 0px;
+    background: #f5b1ff;
+}
+
+
+.container{
+    background: #630372;
+
+}
+.menu{
+        margin: auto;
+}
+
+.menu{
+    background: #630372;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 35px;
+    width: 80%;
+    @media (min-width: 0px) and (max-width: 576px) {
+        grid-template-columns: repeat(1, 100%);
+        width: 100%;
+        padding: 0px;
+    }
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.bg{
+    height: calc(100vh - 91px);
+    background: url(priora.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    text-align: center;
+}
+.review{
+    
+    background-color: aqua;
+    padding: 50px;
+    
+}
+.avatar{
+    padding-top: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+}
+
+.avatar1{
+    background: url(man1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.avatar2{
+    background: url(man2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.avatar3{
+    background: url(bet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    padding-top: 15px;
+}
+.stars{
+    padding-top: 15px;
+}
+.text{
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.data{
+    padding-top: 15px;
+}
+.about{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    @media (min-width: 0px) and (max-width: 576px){
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @media (min-width: 576px) and (max-width: 992px){
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+.about_text{
+    font-size: 24px;
+    line-height: 1.7;
+    margin-right: 50px;
+}
+.about_photo{
+    height: 600px;
+    background: url(pride.jpg);
+    margin-left: 50px;
+    @media (min-width: 0px) and (max-width: 992px) {margin-left: 0px;}
+}
+.about_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    margin: auto;
+    @media (min-width: 0px) and (max-width: 992px) {grid-template-columns: repeat(1, 100%);}
+    @media (min-width: 992px) and (max-width: 1400px) {grid-template-columns: repeat(2, 50%);}
+}
+.reviews{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 25px;
+    width: 70%;
+    margin: auto;
+    @media(min-width: 0px) and (max-width: 576px) {grid-template-columns: repeat(1, 100%);}
+    @media (min-width: 576px) and (max-width: 1200px) {grid-template-columns: repeat(2, 50%);}
+    @media (min-width: 1200px) and (max-width: 1400PX) {grid-template-columns: repeat(4, 25);}
+
+}
+.text_a{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.product_container{
+    padding-top:  150px;
+    text-align: center;
+    background: rgb(207, 255, 255);;
+    @media (min-width: 0px) and (max-width: 576px) {padding-top: 50px;
+    padding-bottom: 70px;}
+    @media (min-width: 576px) and (max-width: 992px) {padding-top: 70px;
+    padding-bottom: 100px;}
+   
+}
+
+.reviews_container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    @media (min-width: 0px) and (max-width: 576px) {padding-top: 50px;}
+    @media (min-width: 576px) and (max-width: 992px) {padding-top: 70px;} 
+    background:rgb(207, 255, 255) ;
+}
+
+.product_header{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.product_photo1{
+    background: url(apocalypse.jpeg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns:repeat( 4, calc(25% - 30PX));
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    @media (min-width: 0px) and (max-width: 576px){grid-template-columns: repeat(1, 100%);}
+    @media (min-width: 576px) and (max-width: 992px){grid-template-columns: repeat(2, 50%);}
+    @media (min-width: 992px) and (max-width: 1400px) {grid-template-columns: repeat(4, 25%);}
+
+}
+.product_photo2{
+    background: url(pionersab.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product_photo3{
+    background: url(avatar.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product_photo4{
+    background: url(product2.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product{
+    border: 1px solid gray;
+    background: white;
+}
+.menu-item{
+ @media (min-width: 0px) and (max-width: 576px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #d5d5d5;
+    display: none;
+
+ }
+}
+.prodect{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+a:hover{
+    color: #ec0eff;
+}
+.product:hover{
+    opacity: 0.5;
+}
+.chk:checked ~ .menu-item{
+    display: block;
+    
+}
+.chk{
+   display: none;
+}
+.lbl{
+    @media (min-width: 576px){
+        display: none;
+    }
+    color: white;
+    padding-left: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.otz{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.review_container{
+    width: 70%;
+    margin: auto;
+}
+.area{
+    width: 100%;
+
+}
+.add{
+    background-color: #0f173f;
+    color: wheat;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.add:hover{
+    background: rgb(57, 0, 190) ;
+}
+.kno{
+    text-align: center;
+}
+.review_container .review{
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.menu-item a:hover{
+    transition: color 1s linear;
+}
+.menu-item .active{
+    color: #ec0eff;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3 - 30px));
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+}
+.image1{
+    background: url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image2{
+    background: url(image.2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image3{
+    background: url(image3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image4{
+    background: url(image4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image5{
+    background: url(image5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image6{
+    background: url(image6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image7{
+    background: url(image7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image8{
+    background: url(image8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image9{
+    background: url(image9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    opacity: 0.8;
+}
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover,
+.image6:hover,
+.image7:hover,
+.image8:hover,
+.image9:hover
+{
+    opacity: 1;
+    transform: scale(0.9);
+    transition: transform 1s linear, opacity 1s linear;
+    cursor: pointer;
+    
+}
+.gll{
+    text-align: center
+}
+.photo_description span{
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+    background: #630372;;
+    padding: 5px 20px 5px 20px;
+    font-family: "Bad Script", cursive;
+}
+
+
+
+
+
+
